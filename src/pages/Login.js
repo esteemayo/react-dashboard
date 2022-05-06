@@ -27,7 +27,7 @@ const Login = () => {
 };
 
 const Container = styled.div`
-  flex: 4;
+  // flex: 4;
   padding: 2rem;
 
   // height: 100vh;
@@ -116,6 +116,10 @@ const Button = styled.button`
     opacity: 0.7;
     letter-spacing: 3px;
     transform: translateY(-3px);
+  }
+
+  &:focus {
+    outline: none;
   }
 
   &:disabled {
