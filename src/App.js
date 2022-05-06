@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import {
@@ -35,10 +34,5 @@ function App() {
     </Router>
   );
 }
-
-const Container = styled.div`
-  display: flex;
-  margin-top: 1rem;
-`;
 
 export default App;
