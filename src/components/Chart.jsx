@@ -20,9 +20,9 @@ const Chart = ({ title, data, dataKey, grid }) => {
           <Tooltip />
           {grid && (
             <CartesianGrid
-              className='chart-grid'
               stroke='#e0dfdf'
               strokeDasharray='5 5'
+              className='chart-grid'
             />
           )}
           <Legend />
