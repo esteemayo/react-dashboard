@@ -30,6 +30,12 @@ const Topbar = () => {
             <Settings style={{ fontSize: '2rem' }} />
           </IconContainer>
           <Image src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
+          <Profile>
+            <ArrowDropDown className='icon' />
+            <Options>
+              <Item>Logout</Item>
+            </Options>
+          </Profile>
         </TopRight>
       </Wrapper>
     </Container>
@@ -101,6 +107,30 @@ const Image = styled.img`
   border-radius: 50%;
   display: block;
   object-fit: cover;
+  cursor: pointer;
+`;
+
+const Options = styled.div`
+  display: none;
+  background-color: ${({ theme }) => theme.bgOption};
+  color: ${({ theme }) => theme.option};
+  border-radius: 0.5rem;
+`;
+
+const Profile = styled.div`
+  color: ${({ theme }) => theme.text};
+
+  &:hover ${Options} {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+  }
+`;
+
+const Item = styled.span`
+  text-transform: capitalize;
+  padding: 1rem;
+  font-size: 1.3rem;
   cursor: pointer;
 `;
 
