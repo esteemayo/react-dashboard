@@ -17,6 +17,12 @@ const DarkModeProvider = ({ children }) => {
     });
   };
 
+  const light = () => {
+    dispatch({
+      type: LIGHT,
+    });
+  };
+
   return (
     <DarkModeContext.Provider value={{ ...state }}>
       {children}
