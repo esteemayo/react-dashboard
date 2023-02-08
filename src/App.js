@@ -16,8 +16,6 @@ import {
   UserList,
 } from 'pages/index';
 
-import './App.css';
-
 function App() {
   const { darkMode } = useGlobalContext();
 
