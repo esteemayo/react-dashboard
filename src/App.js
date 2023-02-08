@@ -19,7 +19,7 @@ import { darkTheme, lightTheme } from 'utils/Theme';
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 function App() {
-  const [darkMode, setdarkMode] = useState(true);
+  const { darkMode } = useGlobalContext();
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
