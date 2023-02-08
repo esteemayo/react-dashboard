@@ -98,7 +98,9 @@ const TableHeading = styled.th`
   color: ${({ theme }) => theme.textSoft};
 `;
 
-const TableBody = styled.tbody``;
+const TableBody = styled.tbody`
+  color: ${({ theme }) => theme.text};
+`;
 
 const TableDataUser = styled.td`
   display: flex;
