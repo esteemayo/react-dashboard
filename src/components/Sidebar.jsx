@@ -116,6 +116,10 @@ const Sidebar = () => {
               Reports
             </SidebarListItem>
           </SidebarList>
+          <Bottom>
+            <Light onClick={light}></Light>
+            <Dark onClick={dark}></Dark>
+          </Bottom>
         </SidebarMenu>
       </Wrapper>
     </Container>
