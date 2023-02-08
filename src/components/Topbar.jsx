@@ -4,7 +4,7 @@ import { Language, NotificationsNone, Settings } from '@material-ui/icons';
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 const Topbar = () => {
-  const { toggle } = useGlobalContext();
+  const { darkMode, toggle } = useGlobalContext();
 
   return (
     <Container>
