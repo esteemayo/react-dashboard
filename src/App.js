@@ -15,8 +15,6 @@ import {
 } from 'pages/index';
 
 import './App.css';
-import { darkTheme, lightTheme } from 'utils/Theme';
-import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 function App() {
   const { darkMode } = useGlobalContext();
