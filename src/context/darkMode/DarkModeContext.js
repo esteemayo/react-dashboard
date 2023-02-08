@@ -23,6 +23,12 @@ const DarkModeProvider = ({ children }) => {
     });
   };
 
+  const toggle = () => {
+    dispatch({
+      type: TOGGLE,
+    });
+  };
+
   return (
     <DarkModeContext.Provider value={{ ...state }}>
       {children}
