@@ -4,6 +4,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import DarkModeProvider from 'context/darkMode/DarkModeContext';
 
+import './index.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <DarkModeProvider>
