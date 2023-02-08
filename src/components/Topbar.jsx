@@ -1,5 +1,10 @@
 import styled from 'styled-components';
-import { ArrowDropDown, Language, NotificationsNone, Settings } from '@material-ui/icons';
+import {
+  ArrowDropDown,
+  Language,
+  NotificationsNone,
+  Settings,
+} from '@material-ui/icons';
 
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
