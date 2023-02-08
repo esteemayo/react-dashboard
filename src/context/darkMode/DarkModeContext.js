@@ -31,7 +31,7 @@ const DarkModeProvider = ({ children }) => {
   };
 
   return (
-    <DarkModeContext.Provider value={{ ...state }}>
+    <DarkModeContext.Provider value={{ ...state, dark, light, toggle }}>
       {children}
     </DarkModeContext.Provider>
   );
