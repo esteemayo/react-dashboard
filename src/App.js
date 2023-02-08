@@ -1,6 +1,8 @@
 import { ThemeProvider } from 'styled-components';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import { darkTheme, lightTheme } from 'utils/Theme';
+import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 import {
   Error,
   Home,
