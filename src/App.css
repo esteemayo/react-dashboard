@@ -52,3 +52,7 @@ body {
 input[type='file'] {
   border: none;
 }
+
+.chart-grid {
+  stroke: rgb(228, 225, 225);
+}
