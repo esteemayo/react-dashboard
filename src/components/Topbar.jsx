@@ -14,6 +14,11 @@ const Topbar = () => {
         </TopLeft>
         <TopRight>
           <IconContainer>
+            <Mode onClick={toggle}>
+              {darkMode ? 'Light' : 'Dark'} Mode
+            </Mode>
+          </IconContainer>
+          <IconContainer>
             <NotificationsNone style={{ fontSize: '2rem' }} />
             <TopIconBadge>2</TopIconBadge>
           </IconContainer>
