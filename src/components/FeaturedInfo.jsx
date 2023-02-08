@@ -103,7 +103,7 @@ const FeaturedMoneyRate = styled.span`
 
 const FeaturedSub = styled.span`
   font-size: 1.5rem;
-  color: gray;
+  color: ${({ theme }) => theme.textSoft};
 `;
 
 export default FeaturedInfo;
