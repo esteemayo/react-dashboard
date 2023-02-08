@@ -15,7 +15,11 @@ import {
   WorkOutline,
 } from '@material-ui/icons';
 
+import { useGlobalContext } from 'context/darkMode/DarkModeContext';
+
 const Sidebar = () => {
+  const { dark, light } = useGlobalContext();
+
   return (
     <Container>
       <Wrapper>
