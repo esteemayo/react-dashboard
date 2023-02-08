@@ -17,6 +17,8 @@ import {
 import './App.css';
 
 function App() {
+  const [darkMode, setdarkMode] = useState(true);
+
   return (
     <Router>
       <Routes>
