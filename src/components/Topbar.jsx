@@ -70,6 +70,11 @@ const IconContainer = styled.div`
   color: #555;
 `;
 
+const Mode = styled.span`
+  text-transform: uppercase;
+  font-size: 1.35rem;
+`;
+
 const TopIconBadge = styled.span`
   width: 1.5rem;
   height: 1.5rem;
