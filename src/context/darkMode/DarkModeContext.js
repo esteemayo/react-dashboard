@@ -1,4 +1,5 @@
-import { createContext, useContext } from 'react';
+import { createContext, useContext, useReducer } from 'react';
+import DarkModeReducer from './DarkModeReducer';
 
 const INITIAL_STATE = {
   darkMode: true,
@@ -7,6 +8,8 @@ const INITIAL_STATE = {
 const DarkModeContext = createContext(INITIAL_STATE);
 
 const DarkModeProvider = ({ children }) => {
+  const [state, dispatch] = useReducer(DarkModeReducer, INITIAL_STATE);
+
   return <DarkModeContext.Provider>{children}</DarkModeContext.Provider>
 };
 
