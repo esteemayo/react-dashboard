@@ -284,7 +284,11 @@ export const productRows = [
 ];
 
 export const productColumns = [
-  { field: 'id', headerName: 'ID', width: 90 },
+  {
+    field: 'id',
+    headerName: 'ID',
+    width: 90,
+  },
   {
     field: 'product',
     headerName: 'Product',
@@ -298,7 +302,11 @@ export const productColumns = [
       );
     },
   },
-  { field: 'img', headerName: 'Image', width: 200 },
+  {
+    field: 'img',
+    headerName: 'Image',
+    width: 200,
+  },
   {
     field: 'stock',
     headerName: 'Stock',
@@ -314,7 +322,7 @@ export const productColumns = [
     headerName: 'Price',
     width: 160,
   },
-]
+];
 
 const UserListUser = styled.div`
   display: flex;
