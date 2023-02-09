@@ -1,3 +1,6 @@
+import { useState } from 'react';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import {
   CalendarToday,
   LocationSearching,
@@ -6,12 +9,9 @@ import {
   PhoneAndroid,
   Publish,
 } from '@material-ui/icons';
-import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 import { phone } from 'responsive';
 import defaultAvatar from 'img/avatar.png';
-import { useState } from 'react';
 
 const User = () => {
   const [file, setFile] = useState(null);
