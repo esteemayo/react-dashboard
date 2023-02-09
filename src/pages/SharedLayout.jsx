@@ -11,7 +11,7 @@ const SharedLayout = () => {
   return (
     <>
       <Topbar />
-      <Container>
+      <Container mode={darkMode}>
         <Sidebar />
         <Outlet />
       </Container>
