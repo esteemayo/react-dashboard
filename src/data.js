@@ -296,7 +296,7 @@ export const productColumns = [
     renderCell: (params) => {
       return (
         <ProductListUser>
-          <Image src={params.row.img} />
+          <Image src={params.row.img} alt='' />
           {params.row.name}
         </ProductListUser>
       );
