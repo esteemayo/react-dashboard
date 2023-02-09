@@ -16,7 +16,6 @@ const UserList = () => {
   };
 
   const columns = [
-
     {
       field: 'action',
       headerName: 'Action',
