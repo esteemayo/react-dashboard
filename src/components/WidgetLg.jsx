@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import defaultAvatar from 'img/avatar.png';
 
 const WidgetLg = () => {
   return (
