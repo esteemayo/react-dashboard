@@ -16,36 +16,7 @@ const ProductList = () => {
   };
 
   const columns = [
-    { field: 'id', headerName: 'ID', width: 90 },
-    {
-      field: 'product',
-      headerName: 'Product',
-      width: 200,
-      renderCell: (params) => {
-        return (
-          <ProductListUser>
-            <Image src={params.row.img} />
-            {params.row.name}
-          </ProductListUser>
-        );
-      },
-    },
-    { field: 'img', headerName: 'Image', width: 200 },
-    {
-      field: 'stock',
-      headerName: 'Stock',
-      width: 200,
-    },
-    {
-      field: 'status',
-      headerName: 'Status',
-      width: 120,
-    },
-    {
-      field: 'price',
-      headerName: 'Price',
-      width: 160,
-    },
+
     {
       field: 'action',
       headerName: 'Action',
@@ -88,20 +59,6 @@ const ProductList = () => {
 const Container = styled.div`
   flex: 4;
   padding: 2rem;
-`;
-
-const ProductListUser = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
-const Image = styled.img`
-  width: 3.2rem;
-  height: 3.2rem;
-  border-radius: 50%;
-  display: block;
-  object-fit: cover;
-  margin-right: 1rem;
 `;
 
 const EditButton = styled.button`
