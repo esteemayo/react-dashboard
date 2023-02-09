@@ -274,3 +274,17 @@ export const productRows = [
     price: '$120.00',
   },
 ];
+
+const UserListUser = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+const Image = styled.img`
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  display: block;
+  object-fit: cover;
+  margin-right: 1rem;
+`;
