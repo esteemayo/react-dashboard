@@ -53,6 +53,10 @@ input[type='file'] {
   border: none;
 }
 
-.chart-grid {
+.chart-grid-light {
   stroke: rgb(228, 225, 225);
+}
+
+.chart-grid-dark {
+  stroke: #e0dfdf44;
 }
