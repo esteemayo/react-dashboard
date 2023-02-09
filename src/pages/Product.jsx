@@ -219,6 +219,7 @@ const Label = styled.label`
 const Input = styled.input`
   border: none;
   display: block;
+  width: 50rem;
   padding: 1rem 2rem;
   background-color: ${({ theme }) => theme.bgInput};
   color: #999;
