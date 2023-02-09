@@ -157,12 +157,12 @@ const SidebarList = styled.ul`
 
 const SidebarListItem = styled.li`
   padding: 0.5rem;
+  color: ${({ theme }) => theme.text};
   cursor: pointer;
 
   display: flex;
   align-items: center;
   border-radius: 1rem;
-  background-color: ${(props) => props.active && 'rgb(240, 240, 255)'};
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 
