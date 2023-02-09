@@ -21,7 +21,7 @@ const Chart = ({ title, data, dataKey, grid }) => {
           {grid && (
             <CartesianGrid
               stroke='#e0dfdf'
-              strokeDasharray='5 5'
+              strokeDasharray='3 3'
               className='chart-grid'
             />
           )}
