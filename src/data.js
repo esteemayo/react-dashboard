@@ -283,6 +283,39 @@ export const productRows = [
   },
 ];
 
+export const productColumns = [
+  { field: 'id', headerName: 'ID', width: 90 },
+  {
+    field: 'product',
+    headerName: 'Product',
+    width: 200,
+    renderCell: (params) => {
+      return (
+        <ProductListUser>
+          <Image src={params.row.img} />
+          {params.row.name}
+        </ProductListUser>
+      );
+    },
+  },
+  { field: 'img', headerName: 'Image', width: 200 },
+  {
+    field: 'stock',
+    headerName: 'Stock',
+    width: 200,
+  },
+  {
+    field: 'status',
+    headerName: 'Status',
+    width: 120,
+  },
+  {
+    field: 'price',
+    headerName: 'Price',
+    width: 160,
+  },
+]
+
 const UserListUser = styled.div`
   display: flex;
   align-items: center;
