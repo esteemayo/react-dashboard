@@ -160,7 +160,11 @@ export const userRows = [
 ];
 
 export const userColumns = [
-  { field: 'id', headerName: 'ID', width: 90 },
+  {
+    field: 'id',
+    headerName: 'ID',
+    width: 90,
+  },
   {
     field: 'user',
     headerName: 'User',
@@ -174,7 +178,11 @@ export const userColumns = [
       );
     },
   },
-  { field: 'avatar', headerName: 'Avatar', width: 200 },
+  {
+    field: 'avatar',
+    headerName: 'Avatar',
+    width: 200,
+  },
   {
     field: 'email',
     headerName: 'Email',
@@ -190,7 +198,7 @@ export const userColumns = [
     headerName: 'Transaction Volume',
     width: 160,
   },
-]
+];
 
 export const productRows = [
   {
