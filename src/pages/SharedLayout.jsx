@@ -6,12 +6,10 @@ import Sidebar from 'components/Sidebar';
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 const SharedLayout = () => {
-  const { darkMode } = useGlobalContext();
-
   return (
     <>
       <Topbar />
-      <Container mode={darkMode}>
+      <Container>
         <Sidebar />
         <Outlet />
       </Container>
