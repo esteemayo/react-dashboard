@@ -159,6 +159,38 @@ export const userRows = [
   },
 ];
 
+export const userColumns = [
+  { field: 'id', headerName: 'ID', width: 90 },
+  {
+    field: 'user',
+    headerName: 'User',
+    width: 200,
+    renderCell: (params) => {
+      return (
+        <UserListUser>
+          <Image src={params.row.avatar} />
+          {params.row.username}
+        </UserListUser>
+      );
+    },
+  },
+  { field: 'avatar', headerName: 'Avatar', width: 200 },
+  {
+    field: 'email',
+    headerName: 'Email',
+    width: 200,
+  },
+  {
+    field: 'status',
+    headerName: 'Status',
+    width: 120,
+  },
+  {
+    field: 'transaction',
+    headerName: 'Transaction Volume',
+    width: 160,
+  },
+]
 
 export const productRows = [
   {
