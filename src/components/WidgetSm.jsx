@@ -10,7 +10,7 @@ const WidgetSm = () => {
       <Title>New join members</Title>
       <List>
         <ListItem>
-          <Image src='https://images.pexels.com/photos/3992656/pexels-photo-3992656.png?auto=compress&cs=tinysrgb&dpr=2&w=500' alt='' />
+          <Image src={defaultAvatar} alt='' />
           <UserContainer>
             <UserName>Anna keller</UserName>
             <UserTitle>Software engineer</UserTitle>
