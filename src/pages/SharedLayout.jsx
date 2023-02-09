@@ -21,7 +21,7 @@ const SharedLayout = () => {
 
 const Container = styled.div`
   display: flex;
-  margin-top: 1rem;
+  margin-top: ${({ mode }) => !mode && '1rem'};
 `;
 
 export default SharedLayout;
