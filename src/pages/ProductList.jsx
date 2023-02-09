@@ -59,6 +59,7 @@ const ProductList = () => {
 const Container = styled.div`
   flex: 4;
   padding: 2rem;
+  background-color: ${({ theme }) => theme.bg};
 `;
 
 const EditButton = styled.button`
