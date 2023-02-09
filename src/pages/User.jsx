@@ -214,9 +214,9 @@ const UpdateUser = styled.div`
   flex: 2;
   margin-left: 2rem;
   padding: 2rem;
-  -webkit-box-shadow: 0 0 1.5rem -1rem rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0 0 1.5rem -1rem rgba(0, 0, 0, 0.75);
-  box-shadow: 0 0 1.5rem -1rem rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: ${({ theme }) => theme.box};
+  -moz-box-shadow: ${({ theme }) => theme.box};
+  box-shadow: ${({ theme }) => theme.box};
 
   ${phone({ marginLeft: 0 })}
 `;
