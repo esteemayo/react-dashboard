@@ -252,7 +252,7 @@ const Select = styled.select`
   background-color: ${({ theme }) => theme.bgInput};
   color: #bbb;
   user-select: none;
-  border-bottom: 3px solid #bbb;
+  border-bottom: 3px solid ${({ theme }) => theme.borderInput};
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 
