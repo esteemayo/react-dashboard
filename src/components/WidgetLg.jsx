@@ -53,7 +53,7 @@ const WidgetLg = () => {
 
           <TableRow>
             <TableDataUser>
-              <Image src={defaultAvatar} />
+              <Image src={defaultAvatar} alt='' />
               <UserName>Susan carol</UserName>
             </TableDataUser>
             <TableDataDate>2 Jun 2021</TableDataDate>
