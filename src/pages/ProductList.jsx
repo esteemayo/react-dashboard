@@ -5,8 +5,10 @@ import { DataGrid } from '@material-ui/data-grid';
 import { DeleteOutline } from '@material-ui/icons';
 
 import { productRows } from 'data';
+import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 const ProductList = () => {
+  const { darkMode } = useGlobalContext();
   const [data, setData] = useState(productRows);
 
   const handleDelete = (id) => {
