@@ -37,7 +37,7 @@ const Topbar = () => {
           <IconContainer>
             <Settings style={{ fontSize: '2rem' }} />
           </IconContainer>
-          <Image src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
+          <Image src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' alt='' />
           <Profile>
             <ArrowDropDown className='icon' />
             <Options>
