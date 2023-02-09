@@ -323,10 +323,10 @@ const UpdateUserImage = styled.img`
   margin-right: 2rem;
 
   ${phone({
-    width: '8rem',
-    height: '8rem',
-    marginRight: '1rem',
-  })}
+  width: '8rem',
+  height: '8rem',
+  marginRight: '1rem',
+})}
 `;
 
 const FormButton = styled.button`
