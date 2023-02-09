@@ -31,11 +31,7 @@ const ProductList = () => {
             </Link>
             <DeleteOutline
               onClick={() => handleDelete(params.row.id)}
-              style={{
-                fontSize: '2rem',
-                color: '#ff0000',
-                cursor: 'pointer',
-              }}
+              style={{ fontSize: '2rem', cursor: 'pointer' }}
               className={darkMode ? 'delete__dark' : 'delete__light'}
             />
           </>
