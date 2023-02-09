@@ -31,7 +31,10 @@ const User = () => {
       <UserContainer>
         <ShowUser>
           <Top>
-            <Image src={defaultAvatar} alt='' />
+            <Image
+              src={defaultAvatar}
+              alt=''
+            />
             <TopTitle>
               <ShowUserUsername>Anna becker</ShowUserUsername>
               <ShowUserTitle>Software engineer</ShowUserTitle>
