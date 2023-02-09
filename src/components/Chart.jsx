@@ -26,7 +26,7 @@ const Chart = ({ title, data, dataKey, grid }) => {
             <CartesianGrid
               stroke='#e0dfdf'
               strokeDasharray='3 3'
-              className='chart-grid'
+              className={darkMode ? 'chart-grid-dark' : 'chart-grid-light'}
             />
           )}
           <Legend />
