@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { DataGrid } from '@material-ui/data-grid';
 import { DeleteOutline } from '@material-ui/icons';
 
-import { productRows } from 'data';
+import { productColumns, productRows } from 'data';
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 const ProductList = () => {
@@ -17,8 +17,7 @@ const ProductList = () => {
     });
   };
 
-  const columns = [
-
+  const actionColumn = [
     {
       field: 'action',
       headerName: 'Action',
@@ -44,7 +43,7 @@ const ProductList = () => {
     <Container>
       <DataGrid
         rows={data}
-        columns={columns}
+        columns={productColumns.concat(actionColumn)}
         disableSelectionOnClick
         pageSize={8}
         rowsPerPageOptions={[8]}
