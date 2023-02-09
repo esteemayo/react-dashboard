@@ -249,6 +249,7 @@ const Select = styled.select`
   width: 100%;
   display: block;
   padding: 1rem 2rem;
+  background-color: ${({ theme }) => theme.bgInput};
   color: #bbb;
   user-select: none;
   border-bottom: 3px solid #bbb;
