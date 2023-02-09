@@ -275,7 +275,7 @@ const FormLabel = styled.label`
 
 const FormInput = styled.input`
   border: none;
-  display: block;
+  display: inline-block;
   font-size: 1.5rem;
   font-family: inherit;
   background-color: ${({ theme }) => theme.bgInput};
