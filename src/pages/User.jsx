@@ -280,9 +280,9 @@ const FormInput = styled.input`
   &:focus {
     outline: none;
     border-bottom: 3px solid #008080;
-    -webkit-box-shadow: 0 0 1.5rem -1rem rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0 0 1.5rem -1rem rgba(0, 0, 0, 0.75);
-    box-shadow: 0 0 1.5rem -1rem rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: ${({ theme }) => theme.box};
+    -moz-box-shadow: ${({ theme }) => theme.box};
+    box-shadow: ${({ theme }) => theme.box};
 
     ${phone({ borderBottom: '2px solod #008080' })}
   }
