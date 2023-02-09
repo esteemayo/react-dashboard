@@ -113,7 +113,11 @@ const User = () => {
                 <FormLabel htmlFor='file'>
                   <Publish style={{ fontSize: '2rem', cursor: 'pointer' }} />
                 </FormLabel>
-                <FormInput type='file' id='file' style={{ display: 'none' }} />
+                <FormInput
+                  id='file'
+                  type='file'
+                  style={{ display: 'none' }}
+                />
               </Upload>
               <FormButton>Update</FormButton>
             </Right>
