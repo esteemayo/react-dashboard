@@ -265,10 +265,10 @@ const FormInput = styled.input`
   transition: all 0.5s ease;
 
   ${phone({
-    width: '100%',
-    padding: '1rem 2rem',
-    borderBottom: '2px solid #bbb',
-  })}
+  width: '100%',
+  padding: '1rem 2rem',
+  borderBottom: '2px solid #bbb',
+})}
 
   @media only screen and (max-width: 23.44em) {
     width: 27rem;
