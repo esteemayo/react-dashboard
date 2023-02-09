@@ -60,3 +60,38 @@ input[type='file'] {
 .chart-grid-dark {
   stroke: #606060;
 }
+
+.icon {
+  font-size: 2rem;
+  margin: 0 1.5rem;
+  cursor: pointer;
+}
+
+.file__icon {
+  fill: #aaa !important;
+}
+
+.delete__dark {
+  color: #fc6767 !important;
+}
+
+.delete__light {
+  color: #ff0000 !important;
+}
+
+.data__grid {
+  color: rgb(151, 151, 151) !important;
+}
+
+.MuiSvgIcon-root {
+  color: rgb(151, 151, 151);
+}
+
+.MuiTablePagination-caption {
+  font-size: 1.3rem !important;
+  color: rgb(151, 151, 151) !important;
+}
+
+.MuiTypography-colorInherit {
+  color: inherit;
+}
