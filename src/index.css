@@ -39,6 +39,8 @@ body {
   align-items: center;
 }
 
+.link:link,
+.link:visited,
 .user__link:link,
 .user__link:visited,
 .product__link:link,
