@@ -296,3 +296,8 @@ const Image = styled.img`
   object-fit: cover;
   margin-right: 1rem;
 `;
+
+const ProductListUser = styled.div`
+  display: flex;
+  align-items: center;
+`;
