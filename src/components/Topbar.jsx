@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import {
   ArrowDropDown,
   Language,
@@ -7,7 +8,6 @@ import {
 } from '@material-ui/icons';
 
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
-import { Link } from 'react-router-dom';
 
 const Topbar = () => {
   const { darkMode, toggle } = useGlobalContext();
