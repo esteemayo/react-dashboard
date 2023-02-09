@@ -161,7 +161,7 @@ const Image = styled.img`
 
 const ProductName = styled.span`
   text-transform: capitalize;
-  fon-weight: 600;
+  font-weight: 600;
   margin-left: 2rem;
 `;
 
