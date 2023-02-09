@@ -26,7 +26,7 @@ const Sidebar = () => {
         <SidebarMenu>
           <Title>Dashboard</Title>
           <SidebarList>
-            <SidebarListItem active>
+            <SidebarListItem>
               <Link to='/' className='sidebar__link'>
                 <LineStyle
                   style={{ fontSize: '2rem', marginRight: '0.5rem' }}
