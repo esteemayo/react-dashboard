@@ -297,8 +297,8 @@ const Button = styled.button`
   font-size: 1.4rem;
   font-weight: 600;
   padding: 0.5rem;
-  background-color: #00008b;
-  color: var(--color-white);
+  background-color: ${({ theme }) => theme.btnUpd};
+  color: ${({ theme }) => theme.textUpd};
   border-radius: 0.5rem;
   cursor: pointer;
   -webkit-transition: all 0.5s ease;
