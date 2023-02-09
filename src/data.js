@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import defaultAvatar from 'img/default.png';
+import defaultAvatar from 'img/avatar.png';
 
 export const userData = [
   {
