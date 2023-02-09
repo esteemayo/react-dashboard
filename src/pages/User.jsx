@@ -14,6 +14,8 @@ import defaultAvatar from 'img/avatar.png';
 import { useState } from 'react';
 
 const User = () => {
+  const [file, setFile] = useState(null);
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
