@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Visibility } from '@material-ui/icons';
 
 import { phone } from 'responsive';
+import defaultAvatar from 'img/avatar.png';
 
 const WidgetSm = () => {
   return (
