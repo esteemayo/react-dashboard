@@ -9,7 +9,11 @@ import {
   ResponsiveContainer,
 } from 'recharts';
 
+import { useGlobalContext } from 'context/darkMode/DarkModeContext';
+
 const Chart = ({ title, data, dataKey, grid }) => {
+  const { darkMode } = useGlobalContext();
+
   return (
     <Container>
       <Title>{title}</Title>
