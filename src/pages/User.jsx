@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 
 import { phone } from 'responsive';
 import defaultAvatar from 'img/avatar.png';
+import { useState } from 'react';
 
 const User = () => {
   const handleSubmit = (e) => {
