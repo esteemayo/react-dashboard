@@ -63,23 +63,43 @@ const User = () => {
           <Form onSubmit={handleSubmit}>
             <Left>
               <FormGroup>
-                <FormInput type='text' placeholder='Username' required />
+                <FormInput
+                  type='text'
+                  placeholder='Username'
+                  required
+                />
                 <FormLabel>Username</FormLabel>
               </FormGroup>
               <FormGroup>
-                <FormInput type='text' placeholder='Full Name' required />
+                <FormInput
+                  type='text'
+                  placeholder='Full Name'
+                  required
+                />
                 <FormLabel>Full Name</FormLabel>
               </FormGroup>
               <FormGroup>
-                <FormInput type='email' placeholder='Email' required />
+                <FormInput
+                  type='email'
+                  placeholder='Email'
+                  required
+                />
                 <FormLabel>Email</FormLabel>
               </FormGroup>
               <FormGroup>
-                <FormInput type='tel' placeholder='Phone' required />
+                <FormInput
+                  type='tel'
+                  placeholder='Phone'
+                  required
+                />
                 <FormLabel>Phone</FormLabel>
               </FormGroup>
               <FormGroup>
-                <FormInput type='text' placeholder='Address' required />
+                <FormInput
+                  type='text'
+                  placeholder='Address'
+                  required
+                />
                 <FormLabel>Address</FormLabel>
               </FormGroup>
             </Left>
