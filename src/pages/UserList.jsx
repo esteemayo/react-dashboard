@@ -5,8 +5,10 @@ import { DataGrid } from '@material-ui/data-grid';
 import { DeleteOutline } from '@material-ui/icons';
 
 import { userColumns, userRows } from 'data';
+import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 const UserList = () => {
+  const { darkMode } = useGlobalContext();
   const [data, setData] = useState(userRows);
 
   const handleDelete = (id) => {
