@@ -57,6 +57,7 @@ const UserList = () => {
 
 const Container = styled.div`
   flex: 4;
+  background-color: ${({ theme }) => theme.bg};
 `;
 
 const EditButton = styled.button`
