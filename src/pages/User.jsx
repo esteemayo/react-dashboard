@@ -27,7 +27,7 @@ const User = () => {
       <UserContainer>
         <ShowUser>
           <Top>
-            <Image src='https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto-compress&cs=tinysrgb&dpr=2&w=500' />
+            <Image src='https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto-compress&cs=tinysrgb&dpr=2&w=500' alt='' />
             <TopTitle>
               <ShowUserUsername>Anna becker</ShowUserUsername>
               <ShowUserTitle>Software engineer</ShowUserTitle>
@@ -85,7 +85,7 @@ const User = () => {
             </Left>
             <Right>
               <Upload>
-                <UpdateUserImage src='https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto-compress&cs=tinysrgb&dpr=2&w=500' />
+                <UpdateUserImage src='https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto-compress&cs=tinysrgb&dpr=2&w=500' alt='' />
                 <FormLabel htmlFor='file'>
                   <Publish style={{ fontSize: '2rem', cursor: 'pointer' }} />
                 </FormLabel>
