@@ -10,6 +10,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 import { phone } from 'responsive';
+import defaultAvatar from 'img/avatar.png';
 
 const User = () => {
   const handleSubmit = (e) => {
