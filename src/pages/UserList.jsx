@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { DataGrid } from '@material-ui/data-grid';
 import { DeleteOutline } from '@material-ui/icons';
 
-import { userRows } from 'data';
+import { userColumns, userRows } from 'data';
 
 const UserList = () => {
   const [data, setData] = useState(userRows);
@@ -15,7 +15,7 @@ const UserList = () => {
     });
   };
 
-  const columns = [
+  const actionColumn = [
     {
       field: 'action',
       headerName: 'Action',
@@ -44,7 +44,7 @@ const UserList = () => {
     <Container>
       <DataGrid
         rows={data}
-        columns={columns}
+        columns={userColumns.concat(actionColumn)}
         disableSelectionOnClick
         pageSize={8}
         rowsPerPageOptions={[8]}
