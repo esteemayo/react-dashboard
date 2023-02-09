@@ -109,7 +109,7 @@ const User = () => {
             </Left>
             <Right>
               <Upload>
-                <UpdateUserImage src='https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto-compress&cs=tinysrgb&dpr=2&w=500' alt='' />
+                <UpdateUserImage src={file ? URL.createObjectURL(file) : defaultAvatar} alt='' />
                 <FormLabel htmlFor='file'>
                   <Publish style={{ fontSize: '2rem', cursor: 'pointer' }} />
                 </FormLabel>
