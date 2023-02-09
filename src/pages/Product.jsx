@@ -220,6 +220,7 @@ const Input = styled.input`
   border: none;
   display: block;
   padding: 1rem 2rem;
+  background-color: ${({ theme }) => theme.bgInput};
   color: #999;
   border-bottom: 3px solid #bbb;
   caret-color: #00008b;
