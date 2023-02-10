@@ -7,6 +7,7 @@ const NotFound = () => {
   return (
     <Container>
       <Link to='/' className='notfound__link'>
+        <Image src={notFoundImg} alt='' />
       </Link>
     </Container>
   );
