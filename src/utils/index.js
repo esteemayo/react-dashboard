@@ -5,3 +5,7 @@ export const getFromStorage = (key) => {
 export const setToStorage = (key, value) => {
   return localStorage.setItem(key, JSON.stringify(value));
 }
+
+export const clearFromStorage = () => {
+  return localStorage.clear();
+}
