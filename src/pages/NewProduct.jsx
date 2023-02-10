@@ -113,6 +113,10 @@ const Select = styled.select`
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 
+  option {
+    background-color: ${({ theme }) => theme.bgInput};
+  }
+
   &:focus {
     -webkit-box-shadow: ${({ theme }) => theme.box};
     -moz-box-shadow: ${({ theme }) => theme.box};
