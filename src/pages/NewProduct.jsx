@@ -127,8 +127,8 @@ const Button = styled.button`
   display: inline-block;
   padding: 1rem 2rem;
   text-transform: capitalize;
-  background-color: #00008b;
-  color: var(--color-white);
+  background-color: ${({ theme }) => theme.btnNew};
+  color: ${({ theme }) => theme.textNew};
   border-radius: 0.5rem;
   margin-top: 2rem;
   cursor: pointer;
