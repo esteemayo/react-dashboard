@@ -28,7 +28,11 @@ const NewUser = () => {
             <FormLabel>Full Name</FormLabel>
           </FormGroup>
           <FormGroup>
-            <FormInput type='email' placeholder='Email' required />
+            <FormInput
+              type='email'
+              placeholder='Email'
+              required
+            />
             <FormLabel>Email</FormLabel>
           </FormGroup>
           <FormGroup>
