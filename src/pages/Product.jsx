@@ -52,7 +52,11 @@ const Product = () => {
         <Form onSubmit={handleSubmit}>
           <FormLeft>
             <FormGroup>
-              <Input type='text' placeholder='Product name' />
+              <Input
+                type='text'
+                name='name'
+                placeholder='Product name'
+              />
               <Label>Product name</Label>
             </FormGroup>
             <FormGroup>
