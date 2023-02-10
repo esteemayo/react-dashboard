@@ -35,7 +35,7 @@ const NewProduct = () => {
           </Select>
         </FormGroup>
         <FormGroup>
-          <Label>Image</Label>
+          <Label htmlFor='file'>Image</Label>
           <Input type='file' id='file' />
         </FormGroup>
         <Button>Create</Button>
