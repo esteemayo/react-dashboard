@@ -59,6 +59,7 @@ const NewUser = () => {
           <FormGroup>
             <FormInput
               type='tel'
+              name='telephone'
               placeholder='Phone'
               required
             />
