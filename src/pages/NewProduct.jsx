@@ -104,6 +104,7 @@ const Select = styled.select`
   padding: 1rem 2rem;
   font-size: 1.2rem;
   font-family: inherit;
+  background-color: transparent;
   color: #999;
   width: 30rem;
   border: 1px solid gray;
