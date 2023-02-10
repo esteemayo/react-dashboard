@@ -82,7 +82,11 @@ const Product = () => {
               <Label htmlFor='file'>
                 <Publish style={{ fontSize: '2rem', cursor: 'pointer' }} />
               </Label>
-              <Input id='file' type='file' style={{ display: 'none' }} />
+              <Input
+                id='file'
+                type='file'
+                style={{ display: 'none' }}
+              />
             </FileUpload>
             <Button>Update</Button>
           </FormRight>
