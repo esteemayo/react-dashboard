@@ -33,7 +33,7 @@ function App() {
             <Route path='product/:id' element={<Product />} />
             <Route path='new-product' element={<NewProduct />} />
           </Route>
-          <Route path='*' element={<Error />} />
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </Router>
     </ThemeProvider>
