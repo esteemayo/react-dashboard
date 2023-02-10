@@ -13,6 +13,7 @@ const NewProduct = () => {
           <Label>Name</Label>
           <Input
             type='text'
+            name='name'
             placeholder='Name'
           />
         </FormGroup>
