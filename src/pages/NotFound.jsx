@@ -14,7 +14,7 @@ const NotFound = () => {
 };
 
 const Container = styled.div`
-  flex: 4;
+  height: 100vh;
   padding: 2rem;
   font-size: 1.5rem;
 
