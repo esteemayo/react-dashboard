@@ -10,16 +10,18 @@ const NewProduct = () => {
       <Title>New product</Title>
       <Form onSubmit={handleSubmit}>
         <FormGroup>
-          <Label>Name</Label>
+          <Label htmlFor='name'>Name</Label>
           <Input
+            id='name'
             type='text'
             name='name'
             placeholder='Name'
           />
         </FormGroup>
         <FormGroup>
-          <Label>Stock</Label>
+          <Label htmlFor='stock'>Stock</Label>
           <Input
+            id='stock'
             type='number'
             name='stock'
             placeholder='Stock'
