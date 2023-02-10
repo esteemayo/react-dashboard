@@ -92,6 +92,7 @@ const Product = () => {
                 id='file'
                 type='file'
                 style={{ display: 'none' }}
+                onChange={(e) => setFile(e.target.files[0])}
               />
             </FileUpload>
             <Button>Update</Button>
