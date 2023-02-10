@@ -11,7 +11,11 @@ const Login = () => {
         <Title>Login</Title>
         <Form onSubmit={handleSubmit}>
           <FormGroup>
-            <FormInput type='text' placeholder='Username' required />
+            <FormInput
+              type='text'
+              placeholder='Username'
+              required
+            />
             <FormLabel>Username</FormLabel>
           </FormGroup>
           <FormGroup>
