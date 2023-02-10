@@ -41,6 +41,7 @@ const NewUser = () => {
           <FormGroup>
             <FormInput
               type='password'
+              name='password'
               placeholder='Password'
               required
             />
