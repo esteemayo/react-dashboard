@@ -200,6 +200,10 @@ const Select = styled.select`
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 
+  option {
+    background-color: ${({ theme }) => theme.bgInput};
+  }
+
   &:focus {
     outline: none;
     border-bottom: 3px solid #008080;
