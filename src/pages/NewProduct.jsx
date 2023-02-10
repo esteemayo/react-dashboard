@@ -139,10 +139,6 @@ const Button = styled.button`
   &:hover {
     transform: translate(3px);
   }
-
-  &:focus {
-    outline: none;
-  }
 `;
 
 export default NewProduct;
