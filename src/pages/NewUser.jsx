@@ -52,7 +52,11 @@ const NewUser = () => {
             <FormLabel>Confirm password</FormLabel>
           </FormGroup>
           <FormGroup>
-            <FormInput type='tel' placeholder='Phone' required />
+            <FormInput
+              type='tel'
+              placeholder='Phone'
+              required
+            />
             <FormLabel>Phone</FormLabel>
           </FormGroup>
           <FormGroup>
