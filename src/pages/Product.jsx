@@ -137,10 +137,6 @@ const AddButton = styled.button`
   &:hover {
     transform: translateY(3px);
   }
-
-  &:focus {
-    outline: none;
-  }
 `;
 
 const Top = styled.div`
