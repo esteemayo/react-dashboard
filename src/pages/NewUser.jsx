@@ -6,6 +6,16 @@ const NewUser = () => {
     e.preventDefault();
   };
 
+  const inputs = [
+    {
+      id: 'confirmPassword',
+      type: 'password',
+      name: 'confirmPassword',
+      label: 'Confirm Password',
+      placeholder: 'Confirm Password',
+    },
+  ];
+
   return (
     <Container>
       <Title>New user</Title>
