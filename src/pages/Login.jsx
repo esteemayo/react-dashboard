@@ -27,9 +27,9 @@ const Login = () => {
 };
 
 const Container = styled.div`
+  height: 100vh;
   padding: 2rem;
   background-color: ${({ theme }) => theme.bg};
-  height: 100vh;
   display:flex;
   flex-direction: column;
   align-items: center;
