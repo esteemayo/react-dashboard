@@ -23,6 +23,7 @@ const NewUser = () => {
           <FormGroup>
             <FormInput
               type='text'
+              name='name'
               placeholder='Full Name'
               required
             />
