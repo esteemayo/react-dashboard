@@ -10,11 +10,11 @@ import User from './User';
 import UserList from './UserList';
 
 export {
-  NotFound,
   Home,
   Login,
   NewProduct,
   NewUser,
+  NotFound,
   Product,
   ProductList,
   SharedLayout,
