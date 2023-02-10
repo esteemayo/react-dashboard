@@ -17,6 +17,7 @@ const Container = styled.div`
   height: 100vh;
   padding: 2rem;
   font-size: 1.5rem;
+  background-color: ${({ theme }) => theme.bg};
 
   display: flex;
   flex-direction: column;
