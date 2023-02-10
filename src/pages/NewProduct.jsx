@@ -18,7 +18,10 @@ const NewProduct = () => {
         </FormGroup>
         <FormGroup>
           <Label>Stock</Label>
-          <Input type='number' placeholder='Stock' />
+          <Input
+            type='number'
+            placeholder='Stock'
+          />
         </FormGroup>
         <FormGroup>
           <Label>Active</Label>
