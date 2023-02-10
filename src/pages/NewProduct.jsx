@@ -79,6 +79,7 @@ const Input = styled.input`
   padding: 1rem 2rem;
   font-size: 1.2rem;
   font-family: inherit;
+  background-color: transparent;
   color: #999;
   caret-color: #00008b;
   border: 1px solid gray;
