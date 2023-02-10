@@ -144,10 +144,6 @@ const Button = styled.button`
   &:hover {
     transform: translateY(-3px);
   }
-
-  &:focus {
-    outline: none;
-  }
 `;
 
 const UserContainer = styled.div`
