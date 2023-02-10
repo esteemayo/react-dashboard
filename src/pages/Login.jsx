@@ -65,7 +65,7 @@ const FormLabel = styled.label`
 `;
 
 const FormInput = styled.input`
-  display: inline-block;
+  display: block;
   border: none;
   width: 40rem;
   padding: 1rem 2rem;
