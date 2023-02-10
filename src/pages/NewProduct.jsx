@@ -89,9 +89,9 @@ const Input = styled.input`
 
   &:focus {
     outline: none;
-    -webkit-box-shadow: 0 1rem 2rem rgba(00, 00, 00, 0.1);
-    -moz-box-shadow: 0 1rem 2rem rgba(00, 00, 00, 0.1);
-    box-shadow: 0 1rem 2rem rgba(00, 00, 00, 0.1);
+    -webkit-box-shadow: ${({ theme }) => theme.box};
+    -moz-box-shadow: ${({ theme }) => theme.box};
+    box-shadow: ${({ theme }) => theme.box};
   }
 
   &::-webkit-input-placeholder {
