@@ -31,60 +31,6 @@ const NewUser = () => {
             <FormLabel>Username</FormLabel>
           </FormGroup>
           <FormGroup>
-            <FormInput
-              type='text'
-              name='name'
-              placeholder='Full Name'
-              required
-            />
-            <FormLabel>Full Name</FormLabel>
-          </FormGroup>
-          <FormGroup>
-            <FormInput
-              type='email'
-              name='email'
-              placeholder='Email'
-              required
-            />
-            <FormLabel>Email</FormLabel>
-          </FormGroup>
-          <FormGroup>
-            <FormInput
-              type='password'
-              name='password'
-              placeholder='Password'
-              required
-            />
-            <FormLabel>Password</FormLabel>
-          </FormGroup>
-          <FormGroup>
-            <FormInput
-              type='password'
-              name='confirmPassword'
-              placeholder='Confirm Password'
-              required
-            />
-            <FormLabel>Confirm password</FormLabel>
-          </FormGroup>
-          <FormGroup>
-            <FormInput
-              type='tel'
-              name='telephone'
-              placeholder='Phone'
-              required
-            />
-            <FormLabel>Phone</FormLabel>
-          </FormGroup>
-          <FormGroup>
-            <FormInput
-              type='text'
-              name='address'
-              placeholder='Address'
-              required
-            />
-            <FormLabel>Address</FormLabel>
-          </FormGroup>
-          <FormGroup>
             <FormGroupRadio>
               <FormRadioInput
                 type='radio'
