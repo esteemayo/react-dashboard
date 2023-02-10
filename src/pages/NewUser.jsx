@@ -239,9 +239,7 @@ const Button = styled.button`
     }
   }
 
-  &:focus {
-    outline: none;
-  }
+  
 `;
 
 export default NewUser;
