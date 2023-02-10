@@ -27,7 +27,6 @@ const Login = () => {
 };
 
 const Container = styled.div`
-  // flex: 4;
   padding: 2rem;
 
   height: 100vh;
