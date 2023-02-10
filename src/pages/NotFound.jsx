@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 import notFoundImg from 'img/404.png';
-import { phone, portrait, small } from 'responsive';
 
 const NotFound = () => {
   return (
