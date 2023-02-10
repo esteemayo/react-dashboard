@@ -6,7 +6,6 @@ import { Publish } from '@material-ui/icons';
 import { phone } from 'responsive';
 import Chart from 'components/Chart';
 import { productData } from '../data';
-import { useState } from 'react';
 
 const Product = () => {
   const handleSubmit = (e) => {
