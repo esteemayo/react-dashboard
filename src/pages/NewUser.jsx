@@ -194,6 +194,7 @@ const Select = styled.select`
   padding: 1.25rem 1.75rem;
   border-top: 3px solid transparent;
   border-bottom: 3px solid #bbb;
+  background-color: ${({ theme }) => theme.bgInput};
   color: #999;
   user-select: none;
   -webkit-transition: all 0.5s ease;
