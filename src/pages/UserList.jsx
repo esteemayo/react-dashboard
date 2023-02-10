@@ -12,9 +12,10 @@ const UserList = () => {
   const [data, setData] = useState(userRows);
 
   const handleDelete = (id) => {
-    setData((data) => {
-      return data.filter((item) => item.id !== id);
-    });
+    if (window.confirm('Are you sure you want to delete this?'))
+      setData((data) => {
+        return data.filter((item) => item.id !== id);
+      });
   };
 
   const actionColumn = [
