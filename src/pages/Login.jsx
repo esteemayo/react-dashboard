@@ -13,6 +13,7 @@ const Login = () => {
           <FormGroup>
             <FormInput
               type='text'
+              name='username'
               placeholder='Username'
               required
             />
