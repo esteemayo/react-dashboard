@@ -12,7 +12,11 @@ const NewUser = () => {
       <Form onSubmit={handleSubmit}>
         <FormContainer>
           <FormGroup>
-            <FormInput type='text' placeholder='Username' required />
+            <FormInput
+              type='text'
+              placeholder='Username'
+              required
+            />
             <FormLabel>Username</FormLabel>
           </FormGroup>
           <FormGroup>
