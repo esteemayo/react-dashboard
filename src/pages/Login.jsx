@@ -11,15 +11,20 @@ const Login = () => {
       <Wrapper>
         <Title>Login</Title>
         <Form onSubmit={handleSubmit}>
-          <FormGroup>
-            <FormInput
-              type='text'
-              name='username'
-              placeholder='Username'
-              required
-            />
-            <FormLabel>Username</FormLabel>
-          </FormGroup>
+          {loginInputs.map((input) => {
+            const { id, name, type, label, placeholder } = input;
+            return (
+              <FormGroup key={id}>
+                <FormInput
+                  type={type}
+                  name={name}
+                  placeholder={placeholder}
+                  required
+                />
+                <FormLabel>{label}</FormLabel>
+              </FormGroup>
+            )
+          })}
           <ErrorMessage>Oops! Something went wrong...</ErrorMessage>
           <Button>Login</Button>
         </Form>
