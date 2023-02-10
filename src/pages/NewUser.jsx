@@ -152,7 +152,7 @@ const FormInput = styled.input`
   background-color: ${({ theme }) => theme.bgInput};
   color: #999;
   border-radius: 4px;
-  caret-color: #00008b;
+  caret-color: ${({ theme }) => theme.crInput};
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
 
