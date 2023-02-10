@@ -21,6 +21,7 @@ const NewProduct = () => {
           <Label>Stock</Label>
           <Input
             type='number'
+            name='stock'
             placeholder='Stock'
           />
         </FormGroup>
