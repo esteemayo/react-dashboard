@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { loginInputs } from 'formData';
 
 const Login = () => {
   const handleSubmit = (e) => {
