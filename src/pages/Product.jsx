@@ -8,6 +8,8 @@ import Chart from 'components/Chart';
 import { productData } from '../data';
 
 const Product = () => {
+  const [file, setFile] = useState(null);
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
