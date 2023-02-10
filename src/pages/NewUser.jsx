@@ -8,6 +8,13 @@ const NewUser = () => {
 
   const inputs = [
     {
+      id: 'password',
+      type: 'password',
+      name: 'password',
+      label: 'Password',
+      placeholder: 'Password',
+    },
+    {
       id: 'confirmPassword',
       type: 'password',
       name: 'confirmPassword',
