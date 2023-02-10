@@ -36,7 +36,11 @@ const NewUser = () => {
             <FormLabel>Email</FormLabel>
           </FormGroup>
           <FormGroup>
-            <FormInput type='password' placeholder='Password' required />
+            <FormInput
+              type='password'
+              placeholder='Password'
+              required
+            />
             <FormLabel>Password</FormLabel>
           </FormGroup>
           <FormGroup>
