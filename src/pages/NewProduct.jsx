@@ -124,7 +124,7 @@ const Option = styled.option``;
 
 const Button = styled.button`
   border: none;
-  display: block;
+  display: inline-block;
   padding: 1rem 2rem;
   text-transform: capitalize;
   background-color: #00008b;
