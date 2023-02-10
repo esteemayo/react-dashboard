@@ -7,10 +7,7 @@ import { phone, portrait, small } from 'responsive';
 const NotFound = () => {
   return (
     <Container>
-      <Title>404</Title>
-      <Text>Oops, the page you are looking for can't be found!</Text>
       <Link to='/' className='notfound__link'>
-        <HomePage>Return to homepage</HomePage>
       </Link>
     </Container>
   );
