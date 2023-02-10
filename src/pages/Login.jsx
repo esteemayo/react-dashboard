@@ -103,7 +103,7 @@ const FormInput = styled.input`
 
 const Button = styled.button`
   border: none;
-  display: block;
+  display: inline-block;
   width: 100%;
   padding: 1rem 2rem;
   background-color: ${({ theme }) => theme.bgBtnAdd};
