@@ -99,6 +99,7 @@ const User = () => {
               <FormGroup>
                 <FormInput
                   type='tel'
+                  name='telephone'
                   placeholder='Phone'
                   required
                 />
