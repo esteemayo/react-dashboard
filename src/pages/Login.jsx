@@ -120,10 +120,6 @@ const Button = styled.button`
     transform: translateY(-3px);
   }
 
-  &:focus {
-    outline: none;
-  }
-
   &:disabled {
     cursor: not-allowed;
   }
