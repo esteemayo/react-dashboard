@@ -22,4 +22,11 @@ const Container = styled.div`
   align-items: center;
 `;
 
+const Image = styled.img`
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  object-fit: cover;
+`;
+
 export default NotFound;
