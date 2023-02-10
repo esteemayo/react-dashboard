@@ -100,7 +100,7 @@ const Input = styled.input`
 `;
 
 const Select = styled.select`
-  display: inline-block;
+  display: block;
   padding: 1rem 2rem;
   font-size: 1.2rem;
   font-family: inherit;
