@@ -215,7 +215,7 @@ const Option = styled.option``;
 
 const Button = styled.button`
   border: none;
-  display: block;
+  display: inline-block;
   width: 20rem;
   text-transform: capitalize;
   text-align: center;
