@@ -1,4 +1,4 @@
-import Error from './Error';
+import NotFound from './NotFound';
 import Home from './Home';
 import Login from './Login';
 import NewProduct from './NewProduct';
@@ -10,7 +10,7 @@ import User from './User';
 import UserList from './UserList';
 
 export {
-  Error,
+  NotFound,
   Home,
   Login,
   NewProduct,
