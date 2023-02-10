@@ -74,7 +74,7 @@ const Label = styled.label`
 `;
 
 const Input = styled.input`
-  display: block;
+  display: inline-block;
   width: 30rem;
   padding: 1rem 2rem;
   font-size: 1.2rem;
