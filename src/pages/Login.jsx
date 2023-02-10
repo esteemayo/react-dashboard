@@ -19,15 +19,6 @@ const Login = () => {
             />
             <FormLabel>Username</FormLabel>
           </FormGroup>
-          <FormGroup>
-            <FormInput
-              type='password'
-              name='password'
-              placeholder='Password'
-              required
-            />
-            <FormLabel>Password</FormLabel>
-          </FormGroup>
           <ErrorMessage>Oops! Something went wrong...</ErrorMessage>
           <Button>Login</Button>
         </Form>
