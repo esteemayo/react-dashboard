@@ -30,11 +30,11 @@ const Container = styled.div`
   // flex: 4;
   padding: 2rem;
 
-  // height: 100vh;
-  // display:flex;
-  // flex-direction: column;
-  // align-items: center;
-  // justify-content: center
+  height: 100vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
 `;
 
 const Wrapper = styled.div`
