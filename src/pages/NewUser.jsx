@@ -30,15 +30,20 @@ const NewUser = () => {
       <Title>New user</Title>
       <Form onSubmit={handleSubmit}>
         <FormContainer>
-          <FormGroup>
-            <FormInput
-              type='text'
-              name='username'
-              placeholder='Username'
-              required
-            />
-            <FormLabel>Username</FormLabel>
-          </FormGroup>
+          {userInputs.concat(inputs).map((input) => {
+            const { id, name, type, label, placeholder } = input;
+            return (
+              <FormGroup key={id}>
+                <FormInput
+                  type={type}
+                  name={name}
+                  placeholder={placeholder}
+                  required
+                />
+                <FormLabel>{label}</FormLabel>
+              </FormGroup>
+            )
+          })}
           <FormGroup>
             <FormGroupRadio>
               <FormRadioInput
