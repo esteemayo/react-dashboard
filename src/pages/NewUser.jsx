@@ -146,7 +146,7 @@ const FormInput = styled.input`
   width: 100%;
   padding: 1.25rem 1.75rem;
   border-top: 3px solid transparent;
-  border-bottom: 3px solid #bbb;
+  border-bottom: 3px solid ${({ type, theme }) => type === 'file' ? '#bbb' : theme.borderInput};
   font-family: inherit;
   font-size: 1.4rem;
   color: #999;
