@@ -139,6 +139,11 @@ const Button = styled.button`
   &:hover {
     transform: translate(3px);
   }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 `;
 
 export default NewProduct;
