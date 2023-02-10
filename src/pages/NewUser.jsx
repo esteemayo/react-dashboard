@@ -60,7 +60,11 @@ const NewUser = () => {
             <FormLabel>Phone</FormLabel>
           </FormGroup>
           <FormGroup>
-            <FormInput type='text' placeholder='Address' required />
+            <FormInput
+              type='text'
+              placeholder='Address'
+              required
+            />
             <FormLabel>Address</FormLabel>
           </FormGroup>
           <FormGroup>
