@@ -32,6 +32,7 @@ const NewUser = () => {
           <FormGroup>
             <FormInput
               type='email'
+              name='email'
               placeholder='Email'
               required
             />
