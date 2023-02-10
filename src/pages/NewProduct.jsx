@@ -37,8 +37,8 @@ const NewProduct = () => {
         <FormGroup>
           <Label htmlFor='file'>Image</Label>
           <Input
-            type='file'
             id='file'
+            type='file'
             accept='image/*'
           />
         </FormGroup>
