@@ -50,6 +50,7 @@ const NewUser = () => {
           <FormGroup>
             <FormInput
               type='password'
+              name='confirmPassword'
               placeholder='Confirm Password'
               required
             />
