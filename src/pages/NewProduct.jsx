@@ -118,6 +118,7 @@ const Select = styled.select`
   }
 
   &:focus {
+    outline: none;
     -webkit-box-shadow: ${({ theme }) => theme.box};
     -moz-box-shadow: ${({ theme }) => theme.box};
     box-shadow: ${({ theme }) => theme.box};
