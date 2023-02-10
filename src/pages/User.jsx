@@ -70,51 +70,20 @@ const User = () => {
           <UpdateUserTitle>Edit</UpdateUserTitle>
           <Form onSubmit={handleSubmit}>
             <Left>
-              <FormGroup>
-                <FormInput
-                  type='text'
-                  name='username'
-                  placeholder='Username'
-                  required
-                />
-                <FormLabel>Username</FormLabel>
-              </FormGroup>
-              <FormGroup>
-                <FormInput
-                  type='text'
-                  name='name'
-                  placeholder='Full Name'
-                  required
-                />
-                <FormLabel>Full Name</FormLabel>
-              </FormGroup>
-              <FormGroup>
-                <FormInput
-                  type='email'
-                  name='email'
-                  placeholder='Email'
-                  required
-                />
-                <FormLabel>Email</FormLabel>
-              </FormGroup>
-              <FormGroup>
-                <FormInput
-                  type='tel'
-                  name='telephone'
-                  placeholder='Phone'
-                  required
-                />
-                <FormLabel>Phone</FormLabel>
-              </FormGroup>
-              <FormGroup>
-                <FormInput
-                  type='text'
-                  name='address'
-                  placeholder='Address'
-                  required
-                />
-                <FormLabel>Address</FormLabel>
-              </FormGroup>
+              {userInputs.map((input) => {
+                const { id, type, name, label, placeholder } = input;
+                return (
+                  <FormGroup key={id}>
+                    <FormInput
+                      type={type}
+                      name={name}
+                      placeholder={placeholder}
+                      required
+                    />
+                    <FormLabel>{label}</FormLabel>
+                  </FormGroup>
+                )
+              })}
             </Left>
             <Right>
               <Upload>
