@@ -31,6 +31,10 @@ const DarkModeProvider = ({ children }) => {
     });
   };
 
+  useEffect(() => {
+    setToStorage('darkMode', state.darkMode);
+  }, [state]);
+
   return (
     <DarkModeContext.Provider value={{ ...state, dark, light, toggle }}>
       {children}
