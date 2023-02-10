@@ -28,7 +28,7 @@ const NewProduct = () => {
           />
         </FormGroup>
         <FormGroup>
-          <Label>Active</Label>
+          <Label htmlFor='active'>Active</Label>
           <Select name='active' id='active'>
             <Option value='yes'>Yes</Option>
             <Option value='no'>No</Option>
