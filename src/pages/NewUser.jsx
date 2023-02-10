@@ -68,6 +68,7 @@ const NewUser = () => {
           <FormGroup>
             <FormInput
               type='text'
+              name='address'
               placeholder='Address'
               required
             />
