@@ -222,8 +222,8 @@ const Button = styled.button`
   padding: 0.7rem 1rem;
   font-weight: 600;
   font-size: 1.5rem;
-  background-color: #00008b;
-  color: var(--color-white);
+  background-color: ${({ theme }) => theme.btnNew};
+  color: ${({ theme }) => theme.textNew};
   border-radius: 1rem;
   margin-top: 3rem;
   cursor: pointer;
