@@ -7,7 +7,7 @@ import { DARK, LIGHT, TOGGLE } from './DarkModeTypes';
 const darkMode = getFromStorage('darkMode');
 
 const INITIAL_STATE = {
-  darkMode: true,
+  darkMode: darkMode ?? true,
 };
 
 const DarkModeContext = createContext(INITIAL_STATE);
