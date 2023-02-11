@@ -4,6 +4,8 @@ import { getFromStorage, setToStorage } from 'utils';
 import DarkModeReducer from './DarkModeReducer';
 import { DARK, LIGHT, TOGGLE } from './DarkModeTypes';
 
+const darkMode = getFromStorage('darkMode');
+
 const INITIAL_STATE = {
   darkMode: true,
 };
