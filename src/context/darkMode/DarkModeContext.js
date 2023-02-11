@@ -1,4 +1,9 @@
-import { createContext, useContext, useEffect, useReducer } from 'react';
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useReducer,
+} from 'react';
 
 import DarkModeReducer from './DarkModeReducer';
 import { getFromStorage, setToStorage } from 'utils';
