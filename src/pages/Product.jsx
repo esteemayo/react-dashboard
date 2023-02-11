@@ -32,22 +32,24 @@ const Product = () => {
             <ProductName>Apple airpods</ProductName>
           </InfoTop>
           <InfoBottom>
-            <InfoItem>
-              <InfoKey>id:</InfoKey>
-              <InfoValue>123</InfoValue>
-            </InfoItem>
-            <InfoItem>
-              <InfoKey>sales:</InfoKey>
-              <InfoValue>5123</InfoValue>
-            </InfoItem>
-            <InfoItem>
-              <InfoKey>active:</InfoKey>
-              <InfoValue>yes</InfoValue>
-            </InfoItem>
-            <InfoItem>
-              <InfoKey>in stock:</InfoKey>
-              <InfoValue>no</InfoValue>
-            </InfoItem>
+            <InfoBottonWrapper>
+              <InfoItem>
+                <InfoKey>id:</InfoKey>
+                <InfoValue>123</InfoValue>
+              </InfoItem>
+              <InfoItem>
+                <InfoKey>sales:</InfoKey>
+                <InfoValue>5123</InfoValue>
+              </InfoItem>
+              <InfoItem>
+                <InfoKey>active:</InfoKey>
+                <InfoValue>yes</InfoValue>
+              </InfoItem>
+              <InfoItem>
+                <InfoKey>in stock:</InfoKey>
+                <InfoValue>no</InfoValue>
+              </InfoItem>
+            </InfoBottonWrapper>
           </InfoBottom>
         </TopRight>
       </Top>
