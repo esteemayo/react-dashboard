@@ -9,7 +9,7 @@ import DarkModeReducer from './DarkModeReducer';
 import { darkModeKey, getFromStorage, setToStorage } from 'utils';
 import { DARK, LIGHT, TOGGLE } from './DarkModeTypes';
 
-const darkMode = getFromStorage('darkMode');
+const darkMode = getFromStorage(darkModeKey);
 
 const INITIAL_STATE = {
   darkMode: darkMode ?? true,
