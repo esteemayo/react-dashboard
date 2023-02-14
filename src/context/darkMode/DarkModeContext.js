@@ -7,7 +7,11 @@ import {
 
 import DarkModeReducer from './DarkModeReducer';
 import { DARK, LIGHT, TOGGLE } from './DarkModeTypes';
-import { darkModeKey, getFromStorage, setToStorage } from 'utils';
+import {
+  darkModeKey,
+  getFromStorage,
+  setToStorage,
+} from 'utils';
 
 const darkMode = getFromStorage(darkModeKey);
 
