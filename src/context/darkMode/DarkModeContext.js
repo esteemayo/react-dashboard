@@ -39,7 +39,7 @@ const DarkModeProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    setToStorage('darkMode', state.darkMode);
+    setToStorage(darkModeKey, state.darkMode);
   }, [state]);
 
   return (
