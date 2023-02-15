@@ -17,6 +17,7 @@ const WidgetLg = () => {
         </TableHeader>
         <TableBody>
           {transactions.map((transaction) => {
+            const { id, img, total, status, customer, createdAt } = transaction;
             return (
               <TableRow>
                 <TableDataUser>
