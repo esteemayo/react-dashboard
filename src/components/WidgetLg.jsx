@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+import { transactions } from 'data';
 import defaultAvatar from 'img/avatar.png';
 
 const WidgetLg = () => {
