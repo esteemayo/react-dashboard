@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const FeaturedItem = () => {
+const FeaturedItem = ({ type }) => {
   return (
     <div>FeaturedItem</div>
   );
