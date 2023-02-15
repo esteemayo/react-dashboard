@@ -26,42 +26,6 @@ const WidgetLg = () => {
               <Button type='approved'>Approved</Button>
             </TableDataStatus>
           </TableRow>
-
-          <TableRow>
-            <TableDataUser>
-              <Image src={defaultAvatar} alt='' />
-              <UserName>Susan carol</UserName>
-            </TableDataUser>
-            <TableDataDate>2 Jun 2021</TableDataDate>
-            <TableDataAmount>$122.00</TableDataAmount>
-            <TableDataStatus>
-              <Button type='declined'>Declined</Button>
-            </TableDataStatus>
-          </TableRow>
-
-          <TableRow>
-            <TableDataUser>
-              <Image src={defaultAvatar} alt='' />
-              <UserName>Susan carol</UserName>
-            </TableDataUser>
-            <TableDataDate>2 Jun 2021</TableDataDate>
-            <TableDataAmount>$122.00</TableDataAmount>
-            <TableDataStatus>
-              <Button type='pending'>Pending</Button>
-            </TableDataStatus>
-          </TableRow>
-
-          <TableRow>
-            <TableDataUser>
-              <Image src={defaultAvatar} alt='' />
-              <UserName>Susan carol</UserName>
-            </TableDataUser>
-            <TableDataDate>2 Jun 2021</TableDataDate>
-            <TableDataAmount>$122.00</TableDataAmount>
-            <TableDataStatus>
-              <Button type='approved'>Approved</Button>
-            </TableDataStatus>
-          </TableRow>
         </TableBody>
       </Table>
     </Container >
