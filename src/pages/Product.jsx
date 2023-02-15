@@ -24,7 +24,11 @@ const Product = () => {
       </TitleContainer>
       <Top>
         <TopLeft>
-          <Chart data={productData} dataKey='Sales' title='Sales performance' />
+          <Chart
+            data={productData}
+            dataKey='Sales'
+            title='Sales performance'
+          />
         </TopLeft>
         <TopRight>
           <InfoTop>
