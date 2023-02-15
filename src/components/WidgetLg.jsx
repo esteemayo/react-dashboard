@@ -16,17 +16,21 @@ const WidgetLg = () => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          <TableRow>
-            <TableDataUser>
-              <Image src={defaultAvatar} alt='' />
-              <UserName>Susan carol</UserName>
-            </TableDataUser>
-            <TableDataDate>2 Jun 2021</TableDataDate>
-            <TableDataAmount>$122.00</TableDataAmount>
-            <TableDataStatus>
-              <Button type='approved'>Approved</Button>
-            </TableDataStatus>
-          </TableRow>
+          {transactions.map((transaction) => {
+            return (
+              <TableRow>
+                <TableDataUser>
+                  <Image src={defaultAvatar} alt='' />
+                  <UserName>Susan carol</UserName>
+                </TableDataUser>
+                <TableDataDate>2 Jun 2021</TableDataDate>
+                <TableDataAmount>$122.00</TableDataAmount>
+                <TableDataStatus>
+                  <Button type='approved'>Approved</Button>
+                </TableDataStatus>
+              </TableRow>
+            );
+          })}
         </TableBody>
       </Table>
     </Container >
