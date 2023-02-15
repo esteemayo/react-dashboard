@@ -35,7 +35,7 @@ const Product = () => {
             <InfoBottonWrapper>
               <InfoItem>
                 <InfoKey type='id'>id:</InfoKey>
-                <InfoValue>123</InfoValue>
+                <InfoValue type='id'>123</InfoValue>
               </InfoItem>
               <InfoItem>
                 <InfoKey>sales:</InfoKey>
