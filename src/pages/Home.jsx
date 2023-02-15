@@ -12,9 +12,9 @@ const Home = () => {
     <Container>
       <FeaturedInfo />
       <Chart
+        grid
         data={userData}
         title='User Analytics'
-        grid
         dataKey='Active User'
       />
       <Widget>
