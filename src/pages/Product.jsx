@@ -5,7 +5,7 @@ import { Publish } from '@material-ui/icons';
 
 import { phone } from 'responsive';
 import Chart from 'components/Chart';
-import { productData } from '../data';
+import { productData } from 'data';
 
 const Product = () => {
   const [file, setFile] = useState(null);
