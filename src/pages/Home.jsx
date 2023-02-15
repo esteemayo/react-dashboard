@@ -14,8 +14,8 @@ const Home = () => {
       <Chart
         grid
         data={userData}
-        title='User Analytics'
         dataKey='Active User'
+        title='User Analytics'
       />
       <Widget>
         <WidgetSm />
