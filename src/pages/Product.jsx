@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Publish } from '@material-ui/icons';
 
 import { phone } from 'responsive';
+import { productData } from 'data';
 import Chart from 'components/Chart';
 
 const Product = () => {
