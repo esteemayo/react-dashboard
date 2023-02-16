@@ -49,10 +49,10 @@ const Login = () => {
                 />
                 <FormLabel>{label}</FormLabel>
                 {name === 'username' ? (
-                  // <FaceOutlinedIcon
-                  //   className='username__icon'
-                  //   style={{ color: darkMode ? '#999999' : '#008080' }}
-                  // />
+                  <FaceOutlined
+                    className='username__icon'
+                    style={{ color: darkMode ? '#999999' : '#008080' }}
+                  />
                 ) : (
                   showPassword ? (
                     <VisibilityOff
