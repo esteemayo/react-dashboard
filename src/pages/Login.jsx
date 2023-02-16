@@ -20,6 +20,10 @@ const Login = () => {
     setInputs((prev) => ({ ...prev, [name]: value }));
   };
 
+  const handleToggle = () => {
+    setInputs((prev) => ({ ...prev, showPassword: !prev.showPassword }));
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
