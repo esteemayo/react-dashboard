@@ -11,6 +11,7 @@ const WidgetSm = () => {
       <Title>New join members</Title>
       <List>
         {newUsers.map((user) => {
+          const { id, img, name, occupation } = user;
           return (
             <ListItem>
               <Image src={defaultAvatar} alt='' />
