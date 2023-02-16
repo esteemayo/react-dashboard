@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import { Visibility, VisibilityOff } from '@material-ui/icons';
 
 import { loginInputs } from 'formData';
+import { useState } from 'react';
 
 const initialState = {
   username: '',
