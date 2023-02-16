@@ -3,6 +3,7 @@ import { Visibility, VisibilityOff } from '@material-ui/icons';
 
 import { loginInputs } from 'formData';
 import { useState } from 'react';
+import { useGlobalContext } from 'context/darkMode/DarkModeContext';
 
 const initialState = {
   username: '',
@@ -11,6 +12,7 @@ const initialState = {
 };
 
 const Login = () => {
+  const { darkMode } = useGlobalContext();
   const [inputs, setInputs] = useState(initialState);
 
   const { showPassword } = inputs;
