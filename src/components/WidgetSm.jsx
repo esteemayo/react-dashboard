@@ -13,11 +13,11 @@ const WidgetSm = () => {
         {newUsers.map((user) => {
           const { id, img, name, occupation } = user;
           return (
-            <ListItem>
-              <Image src={defaultAvatar} alt='' />
+            <ListItem key={id}>
+              <Image src={img ?? defaultAvatar} alt='' />
               <UserContainer>
-                <UserName>Anna keller</UserName>
-                <UserTitle>Software engineer</UserTitle>
+                <UserName>{name}</UserName>
+                <UserTitle>{occupation}</UserTitle>
               </UserContainer>
               <Button>
                 <Visibility style={{ fontSize: '1.6rem', marginRight: '0.5rem' }} />
