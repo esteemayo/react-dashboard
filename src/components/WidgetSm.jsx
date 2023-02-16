@@ -20,54 +20,6 @@ const WidgetSm = () => {
             Display
           </Button>
         </ListItem>
-
-        <ListItem>
-          <Image src={defaultAvatar} alt='' />
-          <UserContainer>
-            <UserName>Anna keller</UserName>
-            <UserTitle>Software engineer</UserTitle>
-          </UserContainer>
-          <Button>
-            <Visibility style={{ fontSize: '1.6rem', marginRight: '0.5rem' }} />
-            Display
-          </Button>
-        </ListItem>
-
-        <ListItem>
-          <Image src={defaultAvatar} alt='' />
-          <UserContainer>
-            <UserName>Anna keller</UserName>
-            <UserTitle>Software engineer</UserTitle>
-          </UserContainer>
-          <Button>
-            <Visibility style={{ fontSize: '1.6rem', marginRight: '0.5rem' }} />
-            Display
-          </Button>
-        </ListItem>
-
-        <ListItem>
-          <Image src={defaultAvatar} alt='' />
-          <UserContainer>
-            <UserName>Anna keller</UserName>
-            <UserTitle>Software engineer</UserTitle>
-          </UserContainer>
-          <Button>
-            <Visibility style={{ fontSize: '1.6rem', marginRight: '0.5rem' }} />
-            Display
-          </Button>
-        </ListItem>
-
-        <ListItem>
-          <Image src={defaultAvatar} alt='' />
-          <UserContainer>
-            <UserName>Anna keller</UserName>
-            <UserTitle>Software engineer</UserTitle>
-          </UserContainer>
-          <Button>
-            <Visibility style={{ fontSize: '1.6rem', marginRight: '0.5rem' }} />
-            Display
-          </Button>
-        </ListItem>
       </List>
     </Container>
   );
