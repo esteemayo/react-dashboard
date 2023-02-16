@@ -3,6 +3,7 @@ import { Visibility } from '@material-ui/icons';
 
 import { phone } from 'responsive';
 import defaultAvatar from 'img/avatar.png';
+import { newUsers } from 'data';
 
 const WidgetSm = () => {
   return (
