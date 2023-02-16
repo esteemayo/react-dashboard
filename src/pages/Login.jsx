@@ -3,6 +3,12 @@ import { Visibility, VisibilityOff } from '@material-ui/icons';
 
 import { loginInputs } from 'formData';
 
+const initialState = {
+  username: '',
+  password: '',
+  showPassword: false,
+};
+
 const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
