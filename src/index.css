@@ -120,3 +120,19 @@ input[type='file'] {
 .MuiTypography-colorInherit {
   color: inherit;
 }
+
+.username__icon {
+  cursor: text;
+}
+
+.password__icon {
+  cursor: pointer;
+}
+
+.username__icon,
+.password__icon {
+  font-size: 2rem !important;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
