@@ -14,7 +14,7 @@ const WidgetSm = () => {
           const { id, img, name, occupation } = user;
           return (
             <ListItem key={id}>
-              <Image src={img ?? defaultAvatar} alt='' />
+              <Image src={defaultAvatar ?? img} alt='' />
               <UserContainer>
                 <UserName>{name}</UserName>
                 <UserTitle>{occupation}</UserTitle>
