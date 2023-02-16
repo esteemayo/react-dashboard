@@ -1,6 +1,39 @@
 import styled from 'styled-components';
 import defaultAvatar from 'img/avatar.png';
 
+export const newUsers = [
+  {
+    id: 1,
+    img: '',
+    name: 'Anna keller',
+    occupation: 'Software engineer',
+  },
+  {
+    id: 2,
+    img: '',
+    name: 'Anna keller',
+    occupation: 'Software engineer',
+  },
+  {
+    id: 3,
+    img: '',
+    name: 'Anna keller',
+    occupation: 'Software engineer',
+  },
+  {
+    id: 4,
+    img: '',
+    name: 'Anna keller',
+    occupation: 'Software engineer',
+  },
+  {
+    id: 5,
+    img: '',
+    name: 'Anna keller',
+    occupation: 'Software engineer',
+  },
+];
+
 export const transactions = [
   {
     id: 1,
