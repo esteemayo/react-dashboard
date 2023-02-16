@@ -42,6 +42,7 @@ const Login = () => {
                   name={name}
                   placeholder={placeholder}
                   required
+                  onChange={handleChange}
                 />
                 <FormLabel>{label}</FormLabel>
               </FormGroup>
