@@ -11,6 +11,8 @@ const initialState = {
 };
 
 const Login = () => {
+  const [inputs, setInputs] = useState(initialState);
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
