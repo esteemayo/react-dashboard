@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Visibility } from '@material-ui/icons';
+import { Visibility, VisibilityOff } from '@material-ui/icons';
 
 import { loginInputs } from 'formData';
 
