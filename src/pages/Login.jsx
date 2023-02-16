@@ -44,6 +44,7 @@ const Login = () => {
                   name={name}
                   placeholder={placeholder}
                   required
+                  autoFocus={name === 'username' ? true : false}
                   onChange={handleChange}
                 />
                 <FormLabel>{label}</FormLabel>
