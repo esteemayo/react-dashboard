@@ -6,6 +6,7 @@ import { NumericFormat } from 'react-number-format';
 
 import { phone } from 'responsive';
 import Chart from 'components/Chart';
+import { productData } from 'data';
 
 const Product = () => {
   const [file, setFile] = useState(null);
