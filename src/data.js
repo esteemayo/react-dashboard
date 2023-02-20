@@ -276,8 +276,8 @@ export const userColumns = [
           thousandSeparator={true}
           prefix={'$'}
         />
-      )
-    }
+      );
+    },
   },
 ];
 
