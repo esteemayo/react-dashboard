@@ -44,7 +44,13 @@ const Product = () => {
               </InfoItem>
               <InfoItem>
                 <InfoKey>sales:</InfoKey>
-                <InfoValue>5123</InfoValue>
+                <InfoValue>
+                  <NumericFormat
+                    value={'5123'}
+                    displayType={'text'}
+                    prefix={'$'}
+                  />
+                </InfoValue>
               </InfoItem>
               <InfoItem>
                 <InfoKey>active:</InfoKey>
