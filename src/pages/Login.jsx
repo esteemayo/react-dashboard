@@ -51,7 +51,7 @@ const Login = () => {
                 />
                 <FormLabel>{label}</FormLabel>
                 {name === 'username' ? (
-                  <FaceOutlined
+                  <FaceOutlinedIcon
                     className='username__icon'
                     style={{ color: darkMode ? '#999999' : '#008080' }}
                   />
