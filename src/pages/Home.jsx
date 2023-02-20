@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Chart from 'components/Chart';
 import { userData } from 'data';
 import WidgetSm from 'components/WidgetSm';
-import WidgetLg from 'components/WidgetLg';
+import { phone } from 'responsive';
 import FeaturedInfo from 'components/FeaturedInfo';
 
 const Home = () => {
