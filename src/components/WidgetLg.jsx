@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NumericFormat } from 'react-number-format';
 
 import { transactions } from 'data';
 import defaultAvatar from 'img/avatar.png';
