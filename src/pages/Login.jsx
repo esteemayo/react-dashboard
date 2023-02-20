@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import { useState } from 'react';
-import { FaceOutlined, Visibility, VisibilityOff } from '@material-ui/icons';
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import FaceOutlinedIcon from '@mui/icons-material/FaceOutlined';
 
 import { loginInputs } from 'formData';
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
