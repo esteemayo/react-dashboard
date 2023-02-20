@@ -24,7 +24,11 @@ const Topbar = () => {
         <TopRight>
           <IconContainer>
             <Mode onClick={toggle}>
-              {darkMode ? 'Light' : 'Dark'} Mode
+              {darkMode ? (
+                <LightModeOutlined style={{ fontSize: '2rem' }} />
+              ) : (
+                <DarkModeOutlined style={{ fontSize: '2rem' }} />
+              )}
             </Mode>
           </IconContainer>
           <IconContainer>
