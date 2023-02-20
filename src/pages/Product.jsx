@@ -48,7 +48,7 @@ const Product = () => {
                   <NumericFormat
                     value={'5123'}
                     displayType={'text'}
-                    prefix={'$'}
+                    thousandSeparator={true}
                   />
                 </InfoValue>
               </InfoItem>
