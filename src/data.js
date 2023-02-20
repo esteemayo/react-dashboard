@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { NumericFormat } from 'react-number-format';
 import defaultAvatar from 'img/avatar.png';
 
 export const newUsers = [
