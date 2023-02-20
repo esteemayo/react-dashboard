@@ -5,6 +5,7 @@ import { userData } from 'data';
 import WidgetSm from 'components/WidgetSm';
 import { phone } from 'responsive';
 import FeaturedInfo from 'components/FeaturedInfo';
+import WidgetLg from 'components/WidgetLg';
 
 const Home = () => {
   return (
