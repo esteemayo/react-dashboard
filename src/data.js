@@ -411,7 +411,7 @@ export const productColumns = [
           prefix={'$'}
         />
       );
-    }
+    },
   },
 ];
 
