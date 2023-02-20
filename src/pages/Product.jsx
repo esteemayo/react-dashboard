@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Publish } from '@material-ui/icons';
+import { NumericFormat } from 'react-number-format';
 
 import { phone } from 'responsive';
 import { productData } from 'data';
