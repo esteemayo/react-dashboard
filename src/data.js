@@ -392,6 +392,15 @@ export const productColumns = [
     field: 'stock',
     headerName: 'Stock',
     width: 200,
+    renderCell: (params) => {
+      return (
+        <NumericFormat
+          value={params.row.stock}
+          displayType={'text'}
+          thousandSeparator={true}
+        />
+      );
+    },
   },
   {
     field: 'status',
