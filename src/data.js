@@ -268,6 +268,16 @@ export const userColumns = [
     field: 'transaction',
     headerName: 'Transaction Volume',
     width: 160,
+    renderCell: (params) => {
+      return (
+        <NumericFormat
+          value={params.row.transaction}
+          displayType={'text'}
+          thousandSeparator={true}
+          prefix={'$'}
+        />
+      )
+    }
   },
 ];
 
