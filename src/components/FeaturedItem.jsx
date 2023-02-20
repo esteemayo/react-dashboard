@@ -25,7 +25,7 @@ const FeaturedItem = ({ type }) => {
     case 'sales':
       data = {
         title: 'Sales',
-        money: '4,415',
+        money: '4415',
         rate: '-1.4',
         icon: (
           <ArrowDownward
