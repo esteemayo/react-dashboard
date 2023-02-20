@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { NumericFormat } from 'react-number-format';
 
 import { phone } from 'responsive';
-import { productData } from 'data';
 import Chart from 'components/Chart';
 
 const Product = () => {
