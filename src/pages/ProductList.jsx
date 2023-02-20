@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { useState } from 'react';
 import { DataGrid } from '@material-ui/data-grid';
+import { Link } from 'react-router-dom';
 import { DeleteOutline } from '@material-ui/icons';
 
 import { productColumns, productRows } from 'data';
