@@ -11,6 +11,7 @@ import {
 } from '@material-ui/icons';
 
 import { userInputs } from 'formData';
+import { phone } from 'responsive';
 import defaultAvatar from 'img/avatar.png';
 
 const User = () => {
