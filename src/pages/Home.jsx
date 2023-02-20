@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 import { userData } from 'data';
-import { phone } from 'responsive';
-import Chart from 'components/Chart';
 import WidgetSm from 'components/WidgetSm';
 import WidgetLg from 'components/WidgetLg';
 import FeaturedInfo from 'components/FeaturedInfo';
