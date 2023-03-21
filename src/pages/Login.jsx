@@ -6,6 +6,7 @@ import FaceOutlinedIcon from '@mui/icons-material/FaceOutlined';
 
 import { loginInputs } from 'formData';
 import { useGlobalContext } from 'context/darkMode/DarkModeContext';
+import Spinner from 'components/Spinner';
 
 const initialState = {
   username: '',
