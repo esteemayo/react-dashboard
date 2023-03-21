@@ -20,6 +20,7 @@ const User = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
   };
 
   return (
