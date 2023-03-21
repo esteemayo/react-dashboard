@@ -2,6 +2,8 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 const NewProduct = () => {
+  const [loading, setLoading] = useState();
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
