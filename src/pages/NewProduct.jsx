@@ -47,7 +47,9 @@ const NewProduct = () => {
             accept='image/*'
           />
         </FormGroup>
-        <Button>Create</Button>
+        <Button>
+          {loading && <Spinner size='sm' />} Create
+        </Button>
       </Form>
     </Container>
   );
