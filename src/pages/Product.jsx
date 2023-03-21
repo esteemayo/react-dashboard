@@ -335,6 +335,7 @@ const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.3rem;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 0.5rem;
