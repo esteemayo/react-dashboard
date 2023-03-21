@@ -1,5 +1,5 @@
 import Spinner from 'components/Spinner';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 const NewProduct = () => {
@@ -9,6 +9,8 @@ const NewProduct = () => {
     e.preventDefault();
     setLoading(true);
   };
+
+  useEffect(() => { })
 
   return (
     <Container>
