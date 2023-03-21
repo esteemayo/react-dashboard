@@ -10,6 +10,7 @@ import { productData } from 'data';
 
 const Product = () => {
   const [file, setFile] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
