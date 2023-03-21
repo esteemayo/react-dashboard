@@ -16,6 +16,7 @@ import defaultAvatar from 'img/avatar.png';
 
 const User = () => {
   const [file, setFile] = useState(null);
+  const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
