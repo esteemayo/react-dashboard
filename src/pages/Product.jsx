@@ -111,7 +111,9 @@ const Product = () => {
                 onChange={(e) => setFile(e.target.files[0])}
               />
             </FileUpload>
-            <Button>Update</Button>
+            <Button>
+              {loading ? <Spinner size='sm' /> : 'Update'}
+            </Button>
           </FormRight>
         </Form>
       </Bottom>
