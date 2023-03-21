@@ -332,7 +332,9 @@ const Img = styled.img`
 
 const Button = styled.button`
   border: none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 0.5rem;
