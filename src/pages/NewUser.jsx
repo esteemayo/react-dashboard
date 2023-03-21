@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { phone } from 'responsive';
 import { userInputs } from 'formData';
 import Spinner from 'components/Spinner';
+import { userInputs } from 'formData';
 
 const NewUser = () => {
   const [loading, setLoading] = useState(false);
