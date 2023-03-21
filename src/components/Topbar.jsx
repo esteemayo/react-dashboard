@@ -134,6 +134,7 @@ const Options = styled.div`
     display: block;
     width: 0;
     height: 0;
+    background-color: ${({ theme }) => theme.bgOption};
   }
 `;
 
