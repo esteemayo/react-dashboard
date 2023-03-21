@@ -9,6 +9,7 @@ const NewUser = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
   };
 
   const inputs = [
