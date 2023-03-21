@@ -16,6 +16,12 @@ const Container = styled.div`
   border: 3px solid #f5f5f5;
   border-top-color: #979797;
   border-radius: 50%;
+
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 `
 
 export default Spinner;
