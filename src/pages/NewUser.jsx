@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import { phone } from 'responsive';
 import { userInputs } from 'formData';
+import { useState } from 'react';
 
 const NewUser = () => {
   const handleSubmit = (e) => {
