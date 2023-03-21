@@ -41,7 +41,7 @@ const Login = () => {
     }, 3000);
 
     return () => clearTimeout(timeout);
-  }, []);
+  }, [loading]);
 
   return (
     <Container>
