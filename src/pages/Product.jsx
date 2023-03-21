@@ -7,6 +7,7 @@ import { NumericFormat } from 'react-number-format';
 import { phone } from 'responsive';
 import Chart from 'components/Chart';
 import { productData } from 'data';
+import Spinner from 'components/Spinner';
 
 const Product = () => {
   const [file, setFile] = useState(null);
