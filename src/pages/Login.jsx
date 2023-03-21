@@ -35,6 +35,14 @@ const Login = () => {
     setLoading(true);
   };
 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <Container>
       <Wrapper>
