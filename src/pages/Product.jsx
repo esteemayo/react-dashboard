@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Publish } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 import { NumericFormat } from 'react-number-format';
@@ -17,6 +17,8 @@ const Product = () => {
     e.preventDefault();
     setLoading(true);
   };
+
+  useEffect(() => { })
 
   return (
     <Container>
