@@ -105,7 +105,9 @@ const User = () => {
                   onChange={(e) => setFile(e.target.files[0])}
                 />
               </Upload>
-              <FormButton>Update</FormButton>
+              <FormButton>
+                Update {loading && <Spinner size='sm' />}
+              </FormButton>
             </Right>
           </Form>
         </UpdateUser>
@@ -345,7 +347,10 @@ const UpdateUserImage = styled.img`
 
 const FormButton = styled.button`
   border: none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   padding: 0.5rem;
   font-size: 1.4rem;
   font-weight: 600;
