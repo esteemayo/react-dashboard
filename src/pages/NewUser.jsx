@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import { phone } from 'responsive';
@@ -29,6 +29,8 @@ const NewUser = () => {
       placeholder: 'Confirm Password',
     },
   ];
+
+  useEffect(() => { })
 
   return (
     <Container>
