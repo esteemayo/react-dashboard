@@ -48,7 +48,7 @@ const NewProduct = () => {
           />
         </FormGroup>
         <Button>
-          {loading && <Spinner size='sm' />} Create
+          Create {loading && <Spinner size='sm' />}
         </Button>
       </Form>
     </Container>
