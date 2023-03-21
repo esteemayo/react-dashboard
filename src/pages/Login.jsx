@@ -15,6 +15,7 @@ const initialState = {
 };
 
 const Login = () => {
+  const loading = true
   const { darkMode } = useGlobalContext();
   const [inputs, setInputs] = useState(initialState);
 
@@ -75,7 +76,9 @@ const Login = () => {
             )
           })}
           <ErrorMessage>Oops! Something went wrong...</ErrorMessage>
-          <Button>Login</Button>
+          <Button>
+            Login {loading && <Spinner size='sm' />}
+          </Button>
         </Form>
       </Wrapper>
     </Container>
@@ -164,6 +167,7 @@ const Button = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 0.5rem;
   width: 100%;
   padding: 1rem 2rem;
   background-color: ${({ theme }) => theme.bgBtnAdd};
