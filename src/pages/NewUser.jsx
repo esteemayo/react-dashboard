@@ -83,7 +83,9 @@ const NewUser = () => {
             <FormSelectLabel htmlFor='active'>Active</FormSelectLabel>
           </FormGroup>
         </FormContainer>
-        <Button>Create</Button>
+        <Button>
+          Create {loading && <Spinner size='sm' />}
+        </Button>
       </Form>
     </Container>
   );
