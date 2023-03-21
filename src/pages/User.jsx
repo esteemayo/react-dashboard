@@ -13,6 +13,7 @@ import {
 import { userInputs } from 'formData';
 import { phone } from 'responsive';
 import defaultAvatar from 'img/avatar.png';
+import Spinner from 'components/Spinner';
 
 const User = () => {
   const [file, setFile] = useState(null);
