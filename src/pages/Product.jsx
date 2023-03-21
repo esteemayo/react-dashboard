@@ -14,6 +14,7 @@ const Product = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
   };
 
   return (
