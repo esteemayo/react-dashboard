@@ -10,7 +10,13 @@ const NewProduct = () => {
     setLoading(true);
   };
 
-  useEffect(() => { })
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+
+    return () => clearTimeout(timeout);
+  }, [loading]);
 
   return (
     <Container>
