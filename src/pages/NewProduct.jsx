@@ -6,6 +6,7 @@ const NewProduct = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
   };
 
   return (
