@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { phone } from 'responsive';
 import { userInputs } from 'formData';
+import Spinner from 'components/Spinner';
 
 const NewUser = () => {
   const [loading, setLoading] = useState(false);
