@@ -5,6 +5,8 @@ import { userInputs } from 'formData';
 import { useState } from 'react';
 
 const NewUser = () => {
+  const [loading, setLoading] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
   };
