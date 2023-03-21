@@ -136,7 +136,7 @@ const Options = styled.div`
     height: 0;
     border-left: 0.5rem solid transparent;
     border-right: 0.5rem solid transparent;
-    border-bottom: 0.5rem solid red;
+    border-bottom: 0.5rem solid ${({ theme }) => theme.bgOption};
     position: absolute;
     top: -0.5rem;
     left: 33%;
