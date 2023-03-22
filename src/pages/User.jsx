@@ -114,7 +114,7 @@ const User = () => {
                 />
               </Upload>
               <FormButton>
-                Update {loading && <Spinner size='sm' />}
+                Update {loading && <Spinner />}
               </FormButton>
             </Right>
           </Form>
