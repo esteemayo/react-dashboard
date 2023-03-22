@@ -92,7 +92,7 @@ const NewUser = () => {
           </FormGroup>
         </FormContainer>
         <Button>
-          Create {loading && <Spinner size='sm' />}
+          Create {loading && <Spinner />}
         </Button>
       </Form>
     </Container>
