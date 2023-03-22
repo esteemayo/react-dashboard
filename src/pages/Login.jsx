@@ -79,7 +79,7 @@ const Login = () => {
           })}
           <ErrorMessage>Oops! Something went wrong...</ErrorMessage>
           <Button>
-            Login {loading && <Spinner size='sm' />}
+            Login {loading && <Spinner />}
           </Button>
         </Form>
       </Wrapper>
