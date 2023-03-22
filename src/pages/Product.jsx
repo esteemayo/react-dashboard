@@ -120,7 +120,7 @@ const Product = () => {
               />
             </FileUpload>
             <Button>
-              Update {loading && <Spinner size='sm' />}
+              Update {loading && <Spinner />}
             </Button>
           </FormRight>
         </Form>
