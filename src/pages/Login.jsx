@@ -75,7 +75,6 @@ const Login = () => {
                     <Visibility
                       onClick={handleToggle}
                       className='password__icon'
-                      style={{ color: darkMode ? '#999999' : '#008080' }}
                     />
                   )
                 )}
