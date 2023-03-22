@@ -125,6 +125,10 @@ const FormGroup = styled.div`
   &:not(:last-of-type) {
     margin-bottom: 2rem;
   }
+
+  svg {
+    color: ${({ theme }) => theme.colorIcon};
+  }
 `;
 
 const FormLabel = styled.label`
