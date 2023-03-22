@@ -143,6 +143,7 @@ const FormInput = styled.input`
   -webkit-box-shadow: 0 1rem 2rem rgba(00, 00, 00, 0.1);
   -moz-box-shadow: 0 1rem 2rem rgba(00, 00, 00, 0.1);
   box-shadow: 0 1rem 2rem rgba(00, 00, 00, 0.1);
+  caret-color: ${({ theme }) => theme.crLogin};
   transition: all 0.5s ease;
 
   &:focus {
