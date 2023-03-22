@@ -15,7 +15,6 @@ const initialState = {
 };
 
 const Login = () => {
-  const { darkMode } = useGlobalContext();
   const [loading, setLoading] = useState(false);
   const [inputs, setInputs] = useState(initialState);
 
