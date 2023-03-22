@@ -59,6 +59,7 @@ const Login = () => {
                   required
                   autoFocus={name === 'username' ? true : false}
                   onChange={handleChange}
+                  required
                 />
                 <FormLabel>{label}</FormLabel>
                 {name === 'username' ? (
